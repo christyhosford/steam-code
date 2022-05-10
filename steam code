@@ -1,0 +1,4 @@
+import pandas
+file_data = pandas.read_csv('Book1.csv')
+complete_df = pandas.DataFrame(file_data)
+print(complete_df)
